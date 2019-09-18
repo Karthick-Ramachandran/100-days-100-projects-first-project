@@ -7,10 +7,7 @@
     "start": "node app.js"
   },
   "keywords": [
-    "node",
-    "app",
-    "100",
-    "days"
+    "node"
   ],
   "author": "Karthick",
   "license": "MIT",
