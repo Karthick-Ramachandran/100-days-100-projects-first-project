@@ -1,0 +1,10 @@
+<form action="/upload" method="POST" enctype="multipart/form-data">
+    <div class="draggable">
+        <input type="file" name="image" onchange="app(event.target.files)"
+            accept="image/*">
+        <p id="p">Drag and drop or click to upload</p>
+    </div>
+    <div class="btn">
+        <button type="submit">Get as PDF</button>
+    </div>
+</form>

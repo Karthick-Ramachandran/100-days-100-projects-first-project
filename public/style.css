@@ -1,0 +1,32 @@
+form {
+  margin-top: 30px;
+}
+
+input[type="file"] {
+  height: 30vh;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.draggable {
+  height: 30vh;
+  border: 2px dotted grey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+button {
+  margin-top: 30px;
+  color: white;
+  background-color: teal;
+  padding: 0.5rem;
+  border-radius: 10%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
