@@ -43,7 +43,7 @@ app.post("/upload", (req, res) => {
 app.get("/download/pdf", (req, res) => {
   res.download(`${__dirname}/tesseract.js-ocr-result.pdf`, "result.pdf");
 });
-const PORT = 3000 || process.env.PORT;
+const PORT = 3000 || PROCESS.ENV.PORT;
 app.listen(PORT, () => {
   console.log("app is running");
 });
